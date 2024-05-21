@@ -28,16 +28,14 @@ MDScreen:
 
                         
                         MDTab:
-                            title: f"[size=40sp][font={fonts[-1]['fn_regular']}]{md_icons['account-group']}[/size][/font] [size=30][/font][/ref]Участники"
-                            
+                            title: f"[size=18sp][font={fonts[-1]['fn_regular']}]{md_icons['account-group']}[/size][/font] [size=18sp][/font][/ref] Участники"
                             MDBoxLayout:
                                 padding: [20, 20, 20, 20]
                                 MDFillRoundFlatButton:
                                     text: "Button"
 
                         MDTab:
-                            title : f"[size=30][/font][/ref] Расчет"
-                            icon: 'account-cash'
+                            title: f"[size=18sp][font={fonts[-1]['fn_regular']}]{md_icons['account-cash']}[/size][/font] [size=18sp][/font][/ref] Расчет"
 
                         
                     # MDLabel:
